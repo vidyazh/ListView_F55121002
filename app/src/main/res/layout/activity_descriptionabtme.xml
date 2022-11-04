@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".descriptionabtme">
+
+    <TextView
+        android:id="@+id/listdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Vidya Az Zahra"
+        android:layout_marginTop="105dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/listimg"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/vidya"
+        android:layout_below="@+id/listdata"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/listdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="   My name is Vidya Az Zahra. I am a college student at Tadulako University. I am 19 years old, and i am the oldest child in my family. well, basically, i am not a talkative person when i meet new people,
+    but i love meeting new people. i am more conversational with my closest people i care about nature, like climate change, limiting water, cutting energy use, using less paper,
+    producing less waste. i like watching movies, especially from Disney, and my famous actor is Timothee Chalamet. I have always wanted to go to Disneyland, i wish i cango there someday."
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/listimg"
+        android:layout_marginLeft="80dp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
